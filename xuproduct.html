@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="xu.css">
+
+    <style>
+        .small-img-group
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        .small-img-col
+        {
+            flex-basis: 24%;
+            cursor: pointer !important;
+        }
+        .sproduct select
+        {
+            display: block;
+            padding: 5px 10px;
+        }
+        .sproduct input
+        {
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .sproduct input:focus
+        {
+            outline: none;
+        }
+        .buy-btn
+        {
+            background: #fb774b;
+            opacity: 1;
+            transition: 0.3s all;        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Rocks<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="xu.html#banner">Home</a></li>
+            <li><a href="xu.html#about">About</a></li>
+            <li><a href="xu.html#menu">Menu</a></li>
+            <li><a href="xu.html#expert">Expert</a></li>
+            <li><a href="xu.html#testimonials">Testimonials</a></li>
+            <li><a href="xu.html#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="container sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-1" src="/jan6.jpg" id="MainImg" alt="">
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="/jan6.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/jan7.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/jan9.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/jan5.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h6>Home / T-Shirt</h6>
+                <h3 class="py-4">Man's Fashion T Shirt</h3>
+                <h2 class="price">$139.00</h2>
+                <select class="my-3">
+                    <option>Select Size</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1">
+                <button class="buy-btn">Add To Cart</button>
+                <h4 class="mt-5 mb-5"> Product Details</h4>
+                <span>gsdkfhsdkjfhslkdflsjhdflkjsldfhslkhdfjshdfjh
+                    gksjdgfksjdhfkjshdfkjsdhkfjhskdjfhksjdhfksjdhfksjh
+                    gdjsfhgsjdhgfjsdhgfjshdgfjsdhgfjsdghfjsdgjfgsdjgfjsdgh
+                    skdjfhksjdghfksdhgfjksdhgfjsdghfjsdghfjhdgsfj sdhgfjsdghf.
+                </span>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>
+                gjhgluytrfl.hjv,kgdfluyg.kvh,jyflhv.jkhljf.lijyfjkghlsdjryg u
+                ;ksjdhg;ksjdhg;jksh;dkjgh;skjdgh;kjsdhg;kjsh;dfjgh
+            </p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/jan3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Rocks</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/jan4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Boose</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/jan5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Rocks 2</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <a href="/xuproduct.html">
+                        <img src="/jan6.jpg">
+                    </a>
+                    
+                </div>
+                <div class="text">
+                    <h3>Special Ring</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/jan7.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Serges</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="/jan9.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Ring Spaider</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+           <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> 
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+</body>
+</html>
