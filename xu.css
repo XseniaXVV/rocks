@@ -21,7 +21,7 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(jan.jpg);
+    background: url(All.jpg);
     background-size: cover;
 }
 .banner .content
@@ -258,7 +258,7 @@ section
 }
 .testimonials
 {
-    background: url(fon1.jpg);
+    background: url(All.jpg);
     background-size: cover;
 }
 .white .titleText
@@ -323,7 +323,7 @@ section
 }
 .contact
 {
-    background: url(All.jpg);
+    background: url(br1.jpg);
     background-size: cover;
 }
 .contactForm
