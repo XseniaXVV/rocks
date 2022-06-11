@@ -21,7 +21,7 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(All.jpg);
+    background: url(fonn1.jpg);
     background-size: cover;
 }
 .banner .content
@@ -258,7 +258,7 @@ section
 }
 .testimonials
 {
-    background: url(sfon1.jpg);
+    background: url(fonn2.jpg);
     background-size: cover;
 }
 .white .titleText
